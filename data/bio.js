@@ -14,5 +14,10 @@ function renderBio() {
   <p class="lead col-12 text-center"> \
       <a href="mailto:james.bouker@gmail.com">james.bouker@gmail.com</a> \
   </p> \
+  <p class="lead text-center col-md-8"> \
+Started out making JApplet games for myself & some friends, ported to Android, and eventually to iOS. \
+After that I started coding professionally. \
+This page lists most of the companies and projects I've worked on.\
+</p> \
   `;
 }
