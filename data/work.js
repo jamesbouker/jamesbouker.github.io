@@ -33,10 +33,12 @@ var jobs = [
 ];
 
 function renderWork() {
+  // eslint-disable-next-line no-undef
   removeContent();
   const container = document.querySelector("#contents");
   // eslint-disable-next-line no-undef
   jobs.forEach((job) => {
+    // eslint-disable-next-line no-undef
     const card = makeCard(job.imgSrc, job.title, job.subtitle, job.body);
     container.appendChild(card);
   });
