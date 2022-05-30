@@ -23,19 +23,15 @@ function makeCard(imgSrc, title, subtitle, body) {
   return div;
 }
 
-function renderWork() {
-  removeContent();
-  const container = document.querySelector("#contents");
-  // eslint-disable-next-line no-undef
-  jobs.forEach((job) => {
-    const card = makeCard(job.imgSrc, job.title, job.subtitle, job.body);
-    container.appendChild(card);
-  });
-}
-
 function removeContent() {
   const contents = document.querySelector("#contents");
   while (contents.firstChild) {
     contents.removeChild(contents.firstChild);
   }
+}
+
+function renderContent(innerHTML) {
+  removeContent();
+  const container = document.querySelector("#contents");
+  container.innerHTML = innerHTML;
 }

@@ -31,3 +31,13 @@ var jobs = [
     body: "Lead iOS engineer. Web browser and voice reader for the blind.",
   },
 ];
+
+function renderWork() {
+  removeContent();
+  const container = document.querySelector("#contents");
+  // eslint-disable-next-line no-undef
+  jobs.forEach((job) => {
+    const card = makeCard(job.imgSrc, job.title, job.subtitle, job.body);
+    container.appendChild(card);
+  });
+}

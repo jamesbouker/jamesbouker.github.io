@@ -1,9 +1,7 @@
+/* eslint-disable no-undef */
 // eslint-disable-next-line no-unused-vars
 function renderBio() {
-  // eslint-disable-next-line no-undef
-  removeContent();
-  const container = document.querySelector("#contents");
-  container.innerHTML = `\
+  const innerHTML = `\
   <p class="lead col-md-3 text-center"> \
       Jimmy Bouker (He/Him)<br>App & Game Maker \
   </p> \
@@ -20,4 +18,5 @@ After that I started coding professionally. \
 This page lists most of the companies and projects I've worked on.\
 </p> \
   `;
+  renderContent(innerHTML);
 }
