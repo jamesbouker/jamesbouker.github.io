@@ -2,6 +2,8 @@
 /* eslint-disable no-undef */
 function renderEdu() {
   const innerHTML = `
+    <div class="container">
+    <h1>🚧 WORK IN PROGRESS 🚧</h1>
     <h2>SBU bs ms in comp sci</hs>
     <h2>Other educational things</h2>
     <ul>
@@ -15,6 +17,7 @@ function renderEdu() {
             consume
             because why not</li>
     </ul>
+    </div>
   `;
   renderContent(innerHTML);
 }

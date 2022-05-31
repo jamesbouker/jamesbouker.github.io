@@ -3,8 +3,7 @@
 function renderGraveyard() {
   const innerHTML = `
     <div class="container">
-        <hr />
-        <h1>🚧 WORK IN PROGRESS AREA 🚧</h1>
+        <h1>🚧 WORK IN PROGRESS 🚧</h1>
         <h2>Currently Available Side Projects</h2>
         3240
 
