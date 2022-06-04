@@ -23,6 +23,12 @@
   background-color: rgb(252, 80, 9) !important;
 }
 
+@media (max-width: 465px) {
+  .nick-button {
+    margin-top: 4px;
+  }
+}
+
 .pandora-button {
   border: none !important;
   box-shadow: none !important;
